@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom'
 
 // Create a React Component
 const App = () => {
-  const buttonText = 1394;
+  const buttonText = [ 'Hi', 'There' ];
 
   return (
     <div>
