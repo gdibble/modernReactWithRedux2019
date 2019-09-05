@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom'
 
 // Create a React Component
 const App = () => {
-  const buttonText = [ 7, 11 ];
+  const buttonText = { text: 'Click me' };
 
   return (
     <div>
