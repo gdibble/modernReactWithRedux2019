@@ -2,7 +2,7 @@ import React from 'react';
 
 const CommentDetail = (props) => {
   return (
-      <div className="comment">
+    <div className="comment">
       <a className="avatar" href="/">
         <img src={props.avatarSrc} alt={props.author} title={props.author} />
       </a>
@@ -10,14 +10,14 @@ const CommentDetail = (props) => {
         <a className="author" href="/">
           {props.author}
         </a>
-      </div>
-      <div className="metadata">
-        <span className="date">
-          {props.timeAgo}
-        </span>
-      </div>
-      <div className="text">
-        {props.text}
+        <div className="metadata">
+          <span className="date">
+            {props.timeAgo}
+          </span>
+        </div>
+        <div className="text">
+          {props.text}
+        </div>
       </div>
     </div>
   );
