@@ -6,7 +6,7 @@ class App extends React.Component {
 
   constructor(props) {
     super(props);  // Parent setup functionality
-
+    this.state = { lat:null };
   }
 
   render() {
