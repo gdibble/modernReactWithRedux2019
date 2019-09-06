@@ -7,6 +7,7 @@ import Faker from 'faker'
 const App = () => {
   return (
     <div className="ui container comments">
+      <ApprovalCard />
       <ApprovalCard>
         <CommentDetail
           author={Faker.name.firstName()}
