@@ -8,6 +8,10 @@ const App = () => {
   return (
     <div className="ui container comments">
       <ApprovalCard>
+        OMG WHAT
+      </ApprovalCard>
+
+      <ApprovalCard>
         <CommentDetail
           author={Faker.name.firstName()}
           timeAgo="Today at 4:45 AM"
