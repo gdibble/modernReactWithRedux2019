@@ -20,3 +20,5 @@ https://github.com/marak/Faker.js/
 
 https://semantic-ui.com/views/card.html
 
+https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API
+
