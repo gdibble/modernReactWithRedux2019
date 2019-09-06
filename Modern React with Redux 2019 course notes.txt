@@ -1,0 +1,22 @@
+React Starter - blank
+https://codepen.io/sgrider/pen/yRWZEq
+
+React Starter - mouse visualization app
+https://codepen.io/sgrider/pen/MxPKJE
+
+https://www.diffchecker.com/
+
+Guide https://github.com/StephenGrider/redux-code
+
+Section 1: JSX codepen ex
+https://codepen.io/gdibble/pen/WNeXWde
+
+https://semantic-ui.com/
+https://cdnjs.com/libraries/semantic-ui
+https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css
+https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js
+
+https://github.com/marak/Faker.js/
+
+https://semantic-ui.com/views/card.html
+
