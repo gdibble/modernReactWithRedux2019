@@ -5,6 +5,7 @@ import SeasonDisplay from './SeasonDisplay';
 class App extends React.Component {
 
   constructor(props) {
+    super(props);  // Parent setup functionality
 
   }
 
