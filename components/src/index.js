@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import ApprovalCard from './ApprovalCard';
 import CommentDetail from './CommentDetail';
 import Faker from 'faker'
 
 const App = () => {
   return (
     <div className="ui container comments">
+      <ApprovalCard />
       <CommentDetail
         author={Faker.name.firstName()}
         timeAgo="Today at 4:45 AM"
