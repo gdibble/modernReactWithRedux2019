@@ -7,7 +7,6 @@ import Faker from 'faker'
 const App = () => {
   return (
     <div className="ui container comments">
-      <ApprovalCard />
       <ApprovalCard>
         <CommentDetail
           author={Faker.name.firstName()}
@@ -16,18 +15,22 @@ const App = () => {
           avatarSrc={Faker.image.avatar()}
         />
       </ApprovalCard>
-      <CommentDetail
-        author={Faker.name.firstName()}
-        timeAgo="Today at 2:00 AM"
-        text={Faker.lorem.sentence()}
-        avatarSrc={Faker.image.avatar()}
-      />
-      <CommentDetail
-        author={Faker.name.firstName()}
-        timeAgo="Yesterday at 5:00 PM"
-        text={Faker.lorem.sentence()}
-        avatarSrc={Faker.image.avatar()}
-      />
+      <ApprovalCard>
+        <CommentDetail
+          author={Faker.name.firstName()}
+          timeAgo="Today at 2:00 AM"
+          text={Faker.lorem.sentence()}
+          avatarSrc={Faker.image.avatar()}
+        />
+      </ApprovalCard>
+      <ApprovalCard>
+        <CommentDetail
+          author={Faker.name.firstName()}
+          timeAgo="Yesterday at 5:00 PM"
+          text={Faker.lorem.sentence()}
+          avatarSrc={Faker.image.avatar()}
+        />
+      </ApprovalCard>
     </div>
   );
 };
