@@ -4,6 +4,10 @@ import SeasonDisplay from './SeasonDisplay';
 
 class App extends React.Component {
 
+  constructor(props) {
+
+  }
+
   render() {
     window.navigator.geolocation.getCurrentPosition(
       (position) => console.log(position),  // Success Callback
