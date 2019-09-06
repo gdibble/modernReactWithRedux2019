@@ -9,8 +9,8 @@ class App extends React.Component {
     this.state = { lat:null };
     // Immediate request location:
     window.navigator.geolocation.getCurrentPosition(
-      (position) => console.log(position),  // Success Callback
-      (error) => console.log(error)         // Error Callback
+      (position) => this.setState({ lat:position.coords.latitude }),  // Success Callback
+      (error) => console.log(error)                                   // Error Callback
     );
   }
 
