@@ -6,7 +6,7 @@ class App extends React.Component {
 
   constructor(props) {
     super(props);  // Parent setup functionality
-    this.state = { lat:null };
+    this.state = { lat:42 };
   }
 
   render() {
@@ -16,7 +16,9 @@ class App extends React.Component {
     );
 
     return (
-      <div>Latitude: </div>
+      <div>
+        Latitude: { this.state.lat }
+      </div>
     );
   }
 
