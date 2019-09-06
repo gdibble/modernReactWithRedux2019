@@ -7,13 +7,14 @@ import Faker from 'faker'
 const App = () => {
   return (
     <div className="ui container comments">
-      <ApprovalCard />
-      <CommentDetail
-        author={Faker.name.firstName()}
-        timeAgo="Today at 4:45 AM"
-        text={Faker.lorem.sentence()}
-        avatarSrc={Faker.image.avatar()}
-      />
+      <ApprovalCard>
+        <CommentDetail
+          author={Faker.name.firstName()}
+          timeAgo="Today at 4:45 AM"
+          text={Faker.lorem.sentence()}
+          avatarSrc={Faker.image.avatar()}
+        />
+      </ApprovalCard>
       <CommentDetail
         author={Faker.name.firstName()}
         timeAgo="Today at 2:00 AM"
