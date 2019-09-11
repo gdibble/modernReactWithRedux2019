@@ -29,12 +29,12 @@ class App extends React.Component {
 
   // Called the first time the component is rendered
   componentDidMount() {
-
+    console.log('My component was rendered to the screen.');
   }
 
-  // Called each time the component updates itself
+  // Called (after `render`) each time the component updates itself
   componentDidUpdate() {
-
+    console.log('My component was just updated - it rerendered!');
   }
 
 }
