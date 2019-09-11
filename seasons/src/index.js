@@ -27,6 +27,11 @@ class App extends React.Component {
     return <div>Loading...</div>;  // Else
   }
 
+  // Called after the component is removed
+  componentWillUnmount() {
+
+  }
+
 }
 
 ReactDOM.render(<App />, document.getElementById('root'))
