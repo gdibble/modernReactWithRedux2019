@@ -27,11 +27,6 @@ class App extends React.Component {
     return <div>Loading...</div>;  // Else
   }
 
-  // Called each time the component updates itself
-  componentDidUpdate() {
-
-  }
-
 }
 
 ReactDOM.render(<App />, document.getElementById('root'))
