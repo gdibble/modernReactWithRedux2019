@@ -15,7 +15,9 @@ const SeasonDisplay = (props) => {
                  'Let\'s hit the beach';
   return (
     <div>
-      {text}
+      <h1>
+        {text}
+      </h1>
     </div>
   );
 };
