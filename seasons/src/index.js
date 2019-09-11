@@ -10,11 +10,6 @@ class App extends React.Component {
       lat: null,
       errorMessage: ''
     };
-    // Immediate request location:
-    window.navigator.geolocation.getCurrentPosition(
-      (position) => this.setState({ lat:position.coords.latitude }),  // Success Callback
-      (error) => this.setState({ errorMessage:error.message })        // Error Callback
-    );
   }
 
   render() {
@@ -27,9 +22,13 @@ class App extends React.Component {
     return <div>Loading...</div>;  // Else
   }
 
-  // Called the first time the component is rendered
+  // Called the first time the component is rendered - best practice data-loading fn
   componentDidMount() {
-    console.log('My component was rendered to the screen.');
+    // Request location:
+    window.navigator.geolocation.getCurrentPosition(
+      (position) => this.setState({ lat:position.coords.latitude }),  // Success Callback
+      (error) => this.setState({ errorMessage:error.message })        // Error Callback
+    );
   }
 
   // Called (after `render`) each time the component updates itself
