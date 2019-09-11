@@ -27,11 +27,6 @@ class App extends React.Component {
     return <div>Loading...</div>;  // Else
   }
 
-  // Called the first time the component is rendered
-  componentDidMount() {
-
-  }
-
 }
 
 ReactDOM.render(<App />, document.getElementById('root'))
