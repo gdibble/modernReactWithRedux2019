@@ -28,3 +28,7 @@ https://babeljs.io/
 
 https://semantic-ui.com/elements/icon.html
 
+https://reactjs.org/docs/forms.html#controlled-components
+
+http://stephengrider.github.io/playgrounds/
+
