@@ -18,7 +18,7 @@ class App extends React.Component {
     if (this.state.lat && !this.state.errorMessage)
       return <SeasonDisplay lat={this.state.lat} />;
 
-    return <Spinner />;  // Else - loading
+    return <Spinner message="Please accept location request" />;  // Else - loading
   }
 
   // Called the first time the component is rendered - best practice data-loading fn
