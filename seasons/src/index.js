@@ -11,7 +11,7 @@ class App extends React.Component {
     errorMessage: ''
   };
 
-  render() {
+  renderContent() {
     if (!this.state.lat && this.state.errorMessage)
       return <div>Error: { this.state.errorMessage }</div>;
 
@@ -19,6 +19,14 @@ class App extends React.Component {
       return <SeasonDisplay lat={this.state.lat} />;
 
     return <Spinner message="Please accept location request" />;  // Else - loading
+  }
+
+  render() {
+    return (
+      <div className="border red">
+        {this.renderContent()}
+      </div>
+    );
   }
 
   // Called the first time the component is rendered - best practice data-loading fn
