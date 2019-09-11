@@ -32,6 +32,11 @@ class App extends React.Component {
 
   }
 
+  // Called each time the component updates itself
+  componentDidUpdate() {
+
+  }
+
 }
 
 ReactDOM.render(<App />, document.getElementById('root'))
