@@ -22,3 +22,9 @@ https://semantic-ui.com/views/card.html
 
 https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API
 
+http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
+
+https://babeljs.io/
+
+https://semantic-ui.com/elements/icon.html
+
