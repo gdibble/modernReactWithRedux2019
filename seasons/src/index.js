@@ -4,13 +4,11 @@ import SeasonDisplay from './SeasonDisplay';
 
 class App extends React.Component {
 
-  constructor(props) {
-    super(props);  // Parent setup functionality
-    this.state = {
-      lat: null,
-      errorMessage: ''
-    };
-  }
+  // Initialize State
+  state = {
+    lat: null,
+    errorMessage: ''
+  };
 
   render() {
     if (!this.state.lat && this.state.errorMessage)
