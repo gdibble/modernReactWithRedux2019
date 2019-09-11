@@ -16,7 +16,7 @@ class SearchBar extends React.Component {
             <input
               id="search"
               type="text"
-              onChange={(e) => console.log(e.target.value)}
+              onChange={this.onInputChange}
             />
           </div>
         </form>
