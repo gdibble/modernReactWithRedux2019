@@ -5,6 +5,10 @@ class SearchBar extends React.Component {
     console.log(event.target.value);
   }
 
+  onInputClick() {
+    console.log('Input was clicked');
+  }
+
   render() {
     return (
       <div className="ui segment">
@@ -13,7 +17,12 @@ class SearchBar extends React.Component {
             <label htmlFor="search">
               Image Search
             </label>
-            <input id="search" type="text" onChange={this.onInputChange} />
+            <input
+              id="search"
+              type="text"
+              onChange={this.onInputChange}
+              onClick={this.onInputClick}
+            />
           </div>
         </form>
       </div>
