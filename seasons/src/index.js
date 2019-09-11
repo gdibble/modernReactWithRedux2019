@@ -37,6 +37,11 @@ class App extends React.Component {
     console.log('My component was just updated - it rerendered!');
   }
 
+  // Called after the component is removed
+  componentWillUnmount() {
+    console.log('My component has been cleaned up.')
+  }
+
 }
 
 ReactDOM.render(<App />, document.getElementById('root'))
