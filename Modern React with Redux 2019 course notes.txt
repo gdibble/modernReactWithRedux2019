@@ -46,3 +46,7 @@ https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map
 
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
+
+https://reactjs.org/docs/refs-and-the-dom.html
+
