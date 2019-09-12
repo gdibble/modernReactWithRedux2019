@@ -4,7 +4,7 @@ class ImageList extends React.Component {
   render() {
     const images = this.props.images.map(image => {
       return (
-        <img src={image.urls.regular} />
+        <img key={image.id} src={image.urls.regular} />
       );
     });
 
