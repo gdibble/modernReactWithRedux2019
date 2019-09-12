@@ -1,7 +1,9 @@
 import React from 'react';
 
 class ImageList extends React.Component {
-  render() {
+  render(props) {
+    console.log(this.props.images);
+
     return (
       <div>Image List</div>
     );
