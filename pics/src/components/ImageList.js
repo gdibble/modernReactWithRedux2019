@@ -1,3 +1,4 @@
+import './ImageList.css';
 import React from 'react';
 
 class ImageList extends React.Component {
@@ -14,7 +15,7 @@ class ImageList extends React.Component {
     });
 
     return (
-      <div>
+      <div className="image-list">
         {images}
       </div>
     );
