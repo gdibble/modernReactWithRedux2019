@@ -32,3 +32,14 @@ https://reactjs.org/docs/forms.html#controlled-components
 
 http://stephengrider.github.io/playgrounds/
 
+https://unsplash.com/developers
+https://unsplash.com/join
+https://unsplash.com/oauth/applications
+https://unsplash.com/documentation
+https://api.unsplash.com/
+https://unsplash.com/documentation#search-photos
+https://unsplash.com/documentation#public-actions
+
+https://www.npmjs.com/package/axios
+
+https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
