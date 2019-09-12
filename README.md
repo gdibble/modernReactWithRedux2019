@@ -14,8 +14,8 @@
 > My coding-exercise submissions
 
 ### Apps
-> Each of my coursework interpretations 
-> - [jsx](https://github.com/gdibble/modernReactWithRedux2019/tree/master/jsx) - Section II
-> - [components](https://github.com/gdibble/modernReactWithRedux2019/tree/master/components) - Section III
-> - [seasons](https://github.com/gdibble/modernReactWithRedux2019/tree/master/seasons) - Section VI
-> - [pics](https://github.com/gdibble/modernReactWithRedux2019/tree/master/pics) - Section VII
+> Each of my coursework interpretations
+> - [jsx](https://github.com/gdibble/modernReactWithRedux2019/tree/master/jsx) (Section II)
+> - [components](https://github.com/gdibble/modernReactWithRedux2019/tree/master/components) (Section III)
+> - [seasons](https://github.com/gdibble/modernReactWithRedux2019/tree/master/seasons) (Sections IV-VI)
+> - [pics](https://github.com/gdibble/modernReactWithRedux2019/tree/master/pics) (Sections VII-X)
