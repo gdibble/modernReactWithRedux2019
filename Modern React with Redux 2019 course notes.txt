@@ -43,3 +43,6 @@ https://unsplash.com/documentation#public-actions
 https://www.npmjs.com/package/axios
 
 https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map
+
