@@ -4,10 +4,12 @@ import VideoItem from './VideoItem.js';
 class VideoList extends React.Component {
 
   render() {
-    const renderedList = this.props.videos.map(video => {
+    const { videos, onVideoSelect } = this.props;
+    const renderedList = videos.map(video => {
       return (
         <VideoItem
           video={video}
+          onVideoSelect={onVideoSelect}
         />
       );
     });
