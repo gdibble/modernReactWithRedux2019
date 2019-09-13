@@ -50,3 +50,9 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
 
 https://reactjs.org/docs/refs-and-the-dom.html
 
+https://console.developers.google.com/
+https://console.developers.google.com/apis/library/youtube.googleapis.com
+
+https://semantic-ui.com/elements/list.html
+https://semantic-ui.com/collections/grid.html
+
