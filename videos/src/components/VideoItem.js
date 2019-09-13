@@ -7,9 +7,11 @@ class VideoItem extends React.Component {
   };
 
   render() {
+    const { snippet } = this.props.video;
+
     return (
       <div>
-        Video Item
+        {snippet.title}
       </div>
     );
   }
