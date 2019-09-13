@@ -1,18 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './components/App.js';
 
-class App extends React.Component {
-
-  state = {
-    // ...
-  };
-
-  render() {
-    return (
-      <div></div>
-    );
-  }
-
-}
-
-ReactDOM.render(<App />, document.getElementById('root'))
+ReactDOM.render(<App />, document.getElementById('root'));
