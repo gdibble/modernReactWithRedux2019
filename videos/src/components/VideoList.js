@@ -13,7 +13,7 @@ class VideoList extends React.Component {
     });
 
     return (
-      <div>
+      <div className="ui relaxed divided list">
         {renderedList}
       </div>
     );

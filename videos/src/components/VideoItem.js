@@ -10,8 +10,13 @@ class VideoItem extends React.Component {
     const { snippet } = this.props.video;
 
     return (
-      <div>
-        <img src={snippet.thumbnails.medium.url} />
+      <div className="item">
+        <img className="ui image" src={snippet.thumbnails.medium.url} />
+        <div className="content">
+          <div className="header">
+            {snippet.title}
+          </div>
+        </div>
         {snippet.title}
       </div>
     );
