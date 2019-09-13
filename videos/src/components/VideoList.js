@@ -1,15 +1,18 @@
 import React from 'react';
+import VideoItem from './VideoItem.js';
 
 class VideoList extends React.Component {
 
-  state = {
-    // ...
-  };
-
   render() {
+    const renderedList = this.props.videos.map(video => {
+      return (
+        <VideoItem />
+      );
+    });
+
     return (
       <div>
-        {this.props.videos.length}
+        {renderedList}
       </div>
     );
   }
