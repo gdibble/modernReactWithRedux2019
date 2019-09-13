@@ -9,7 +9,7 @@ class VideoList extends React.Component {
   render() {
     return (
       <div>
-        Video List
+        {this.props.videos.length}
       </div>
     );
   }
