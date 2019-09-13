@@ -1,5 +1,6 @@
 import React from 'react';
 import SearchBar from './SearchBar.js';
+import YouTube from '../apis/YouTube.js';
 
 class App extends React.Component {
 
@@ -8,7 +9,9 @@ class App extends React.Component {
   };
 
   onTermSubmit = (term) => {
-    console.log(term);
+    YouTube.get('/search', {
+      params: { q: term }
+    })
   };
 
   render() {
