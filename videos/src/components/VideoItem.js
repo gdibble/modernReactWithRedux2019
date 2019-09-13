@@ -15,7 +15,11 @@ class VideoItem extends React.Component {
         className="item video-item"
         onClick={() => onVideoSelect(video)}
       >
-        <img className="ui image" src={video.snippet.thumbnails.medium.url} />
+        <img
+          className="ui image"
+          alt={video.snippet.description}
+          src={video.snippet.thumbnails.medium.url}
+        />
         <div className="content">
           <div className="header">
             {video.snippet.title}
