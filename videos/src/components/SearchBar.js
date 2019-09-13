@@ -1,7 +1,6 @@
 import React from 'react';
-import SearchBar from './SearchBar.js';
 
-class App extends React.Component {
+class SearchBar extends React.Component {
 
   state = {
     // ...
@@ -10,11 +9,11 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <SearchBar />
+        Search Bar
       </div>
     );
   }
 
 }
 
-export default App;
+export default SearchBar;
