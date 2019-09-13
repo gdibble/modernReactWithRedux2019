@@ -1,6 +1,7 @@
 import React from 'react';
 import SearchBar from './SearchBar.js';
 import VideoList from './VideoList.js';
+import VideoDetail from './VideoDetail.js';
 import YouTube from '../apis/YouTube.js';
 
 class App extends React.Component {
@@ -28,6 +29,7 @@ class App extends React.Component {
         <SearchBar
           onFormSubmit={this.onTermSubmit}
         />
+        <VideoDetail selectedVideo={this.state.selectedVideo} />
         <VideoList
           videos={this.state.videos}
           onVideoSelect={this.onVideoSelect}
