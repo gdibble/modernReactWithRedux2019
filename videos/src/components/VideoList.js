@@ -8,6 +8,7 @@ class VideoList extends React.Component {
     const renderedList = videos.map(video => {
       return (
         <VideoItem
+          key={video.etag}
           video={video}
           onVideoSelect={onVideoSelect}
         />
