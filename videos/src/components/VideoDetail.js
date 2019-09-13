@@ -10,6 +10,9 @@ class VideoDetail extends React.Component {
   render() {
     const { selectedVideo } = this.props;
 
+    if (!selectedVideo)
+      return <div>Loading...</div>;
+
     return (
       <div>
         {selectedVideo.snippet.title}
