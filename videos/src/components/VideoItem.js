@@ -11,6 +11,7 @@ class VideoItem extends React.Component {
 
     return (
       <div>
+        <img src={snippet.thumbnails.medium.url} />
         {snippet.title}
       </div>
     );
