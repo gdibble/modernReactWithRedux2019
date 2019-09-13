@@ -4,12 +4,18 @@ import VideoList from './VideoList.js';
 import VideoDetail from './VideoDetail.js';
 import YouTube from '../apis/YouTube.js';
 
+const DEFAULT_TERM = 'Buildings';
+
 class App extends React.Component {
 
   state = {
     videos: [],
     selectedVideo: null
   };
+
+  componentDidMount() {
+    this.onTermSubmit(DEFAULT_TERM);
+  }
 
   onTermSubmit = async term => {
     const response = await YouTube.get('/search', {
