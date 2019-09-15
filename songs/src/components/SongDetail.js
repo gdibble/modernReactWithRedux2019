@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-const SongDetail = props => {
-  console.log(props);
+const SongDetail = ({selectedSong}) => {
   return (
     <div>
-      Song Detail
+      {selectedSong.title}
     </div>
   );
 };
