@@ -56,3 +56,11 @@ https://console.developers.google.com/apis/library/youtube.googleapis.com
 https://semantic-ui.com/elements/list.html
 https://semantic-ui.com/collections/grid.html
 
+https://redux.js.org/
+https://github.com/reduxjs/redux
+https://redux.js.org/api/createstore
+https://redux.js.org/api/combinereducers
+https://redux.js.org/basics/data-flow
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+
