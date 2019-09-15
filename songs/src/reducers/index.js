@@ -26,7 +26,7 @@ export const songsReducer = song => {
  * @returns {Object} - song
 */
 export const selectedSongReducer = (selectedSong = null, action) => {
-  if (action.type === 'SONG_SELECTED')
+  if (action.type === 'SELECT_SONG')
     return action.payload;
 
   return selectedSong;
