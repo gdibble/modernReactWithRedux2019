@@ -7,7 +7,12 @@ const SongDetail = ({selectedSong}) => {
 
   return (
     <div>
-      {selectedSong.title}
+      <h3>Details for:</h3>
+      <p>
+        Title: {selectedSong.title}
+        <br />
+        Duration: {selectedSong.duration}
+      </p>
     </div>
   );
 };
