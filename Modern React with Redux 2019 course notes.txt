@@ -71,3 +71,9 @@ https://react-redux.js.org/api/connect
 
 https://reactjs.org/docs/context.html
 
+https://jsonplaceholder.typicode.com/
+https://jsonplaceholder.typicode.com/posts
+https://jsonplaceholder.typicode.com/users
+
+https://github.com/reduxjs/redux-thunk
+
