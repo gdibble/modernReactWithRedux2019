@@ -6,12 +6,12 @@ import jsonPlaceholder from '../apis/jsonPlaceholder.js';
  *
  * @returns {Object} - action
 */
-export const fetchPosts = async () => {
+export const fetchPosts = () => {
   // Bad approach!
-  const response = await jsonPlaceholder.get('/posts');
+  const promise = jsonPlaceholder.get('/posts');
 
   return {
     type: 'FETCH_POSTS',
-    payload: response
+    payload: promise  // Promise sent to reducers instead of response; not good
   };
 };
