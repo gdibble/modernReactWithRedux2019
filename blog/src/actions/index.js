@@ -7,11 +7,11 @@ import jsonPlaceholder from '../apis/jsonPlaceholder.js';
  * @returns {Object} - action
 */
 export const fetchPosts = () => {
-  // Bad approach!
-  const promise = jsonPlaceholder.get('/posts');
-
-  return {
-    type: 'FETCH_POSTS',
-    payload: promise  // Promise sent to reducers instead of response; not good
+  return async dispatch => {  // (dispatch, getState)
+    const response = await jsonPlaceholder.get('/posts');
+    dispatch({
+      type: 'FETCH_POSTS',
+      payload: response
+    })
   };
 };
