@@ -46,8 +46,7 @@ export const fetchUser = userId => async dispatch => {
  *
  * @returns {Object} - action
 */
-export const fetchPostsAndUsers = () => async dispatch => {
-  console.log('About to fetch posts...');
+export const fetchPostsAndUsers = () => async (dispatch, getState) => {
   await dispatch(fetchPosts());
-  console.log('Fetched posts.')
+  console.log(getState().posts);
 };
