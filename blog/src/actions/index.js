@@ -38,3 +38,16 @@ export const fetchUser = userId => async dispatch => {
 //   });
 // });
 // export const fetchUser = userId => dispatch => _fetchUser(userId, dispatch);
+
+
+/**
+ * @method fetchPostsAndUsers
+ * @summary Action creator
+ *
+ * @returns {Object} - action
+*/
+export const fetchPostsAndUsers = () => async dispatch => {
+  console.log('About to fetch posts...');
+  await dispatch(fetchPosts());
+  console.log('Fetched posts.')
+};
