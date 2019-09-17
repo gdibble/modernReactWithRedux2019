@@ -23,12 +23,12 @@ export const fetchPosts = () => async dispatch => {  // (dispatch, getState)
 //   });
 // };
 
-export const fetchUser = _.memoize(function (userId) {
-  return async function (dispatch) {
+export const fetchUser = function (userId) {
+  return _.memoize(async function (dispatch) {
     const response = await jsonPlaceholder.get(`/users/${userId}`);
     dispatch({
       type: 'FETCH_USER',
       payload: response.data
     });
-  };
-});
+  });
+};
