@@ -12,23 +12,16 @@ export const fetchPosts = () => async dispatch => {  // (dispatch, getState)
   dispatch({
     type: 'FETCH_POSTS',
     payload: response.data
-  })
-};
-
-// export const fetchUser = userId => async dispatch => {
-//   const response = await jsonPlaceholder.get(`/users/${userId}`);
-//   dispatch({
-//     type: 'FETCH_USER',
-//     payload: response.data
-//   });
-// };
-
-export const fetchUser = function (userId) {
-  return _.memoize(async function (dispatch) {
-    const response = await jsonPlaceholder.get(`/users/${userId}`);
-    dispatch({
-      type: 'FETCH_USER',
-      payload: response.data
-    });
   });
 };
+
+const _fetchUser = _.memoize(async (userId, dispatch) => {
+  // Unfortunately this will only ever fetch each user once, regardless of changes to that user
+  const response = await jsonPlaceholder.get(`/users/${userId}`);
+  dispatch({
+    type: 'FETCH_USER',
+    payload: response.data
+  });
+});
+
+export const fetchUser = userId => dispatch => _fetchUser(userId, dispatch);
