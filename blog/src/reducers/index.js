@@ -1,7 +1,6 @@
 import { combineReducers } from 'redux';
-
-// ...
+import postsReducer from './postsReducer.js';
 
 export default combineReducers({
-  replaceMe: () => 'stop gap'
+  posts: postsReducer
 });
