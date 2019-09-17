@@ -23,7 +23,7 @@ export const fetchPosts = () => async dispatch => {  // (dispatch, getState)
 //   });
 // };
 
-export const fetchUser = function (userId) {
+export const fetchUser = _.memoize(function (userId) {
   return async function (dispatch) {
     const response = await jsonPlaceholder.get(`/users/${userId}`);
     dispatch({
@@ -31,4 +31,4 @@ export const fetchUser = function (userId) {
       payload: response.data
     });
   };
-};
+});
