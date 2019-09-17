@@ -77,3 +77,13 @@ https://jsonplaceholder.typicode.com/users
 
 https://github.com/reduxjs/redux-thunk
 
+https://redux.js.org/basics/reducers
+https://github.com/reduxjs/redux/blob/master/src/combineReducers.ts#L191-L207
+
+https://lodash.com/docs#omit
+https://lodash.com/docs/#memoize
+https://lodash.com/docs/#uniq
+https://lodash.com/docs/#map
+https://lodash.com/docs/#forEach
+https://lodash.com/docs/#chain
+
