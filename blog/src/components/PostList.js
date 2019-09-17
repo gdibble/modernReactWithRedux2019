@@ -26,8 +26,8 @@ class PostList extends Component {
                 {post.body}
               </p>
             </div>
+            <UserHeader userId={post.userId} />
           </div>
-          <UserHeader userId={post.userId} />
         </div>
       );
     });
