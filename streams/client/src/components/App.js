@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Route, Link } from 'react-router-dom';
+import { MemoryRouter, Route, Link } from 'react-router-dom';
 
 const PageOne = () => {
   return (
@@ -23,12 +23,12 @@ const PageTwo = () => {
 const App = () => {
   return (
     <div className="ui container">
-      <HashRouter>
+      <MemoryRouter>
         <div>
           <Route path="/" exact component={PageOne} />
           <Route path="/2" component={PageTwo} />
         </div>
-      </HashRouter>
+      </MemoryRouter>
     </div>
   );
 };
