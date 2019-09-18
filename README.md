@@ -22,3 +22,4 @@
 > - [videos](https://github.com/gdibble/modernReactWithRedux2019/tree/master/videos) (Section XI)
 > - [songs](https://github.com/gdibble/modernReactWithRedux2019/tree/master/songs) (Section XIII)
 > - [blog](https://github.com/gdibble/modernReactWithRedux2019/tree/master/blog) (Section XIV-XV)
+> - [streams](https://github.com/gdibble/modernReactWithRedux2019/tree/master/streams) (Section XVI-wip)
