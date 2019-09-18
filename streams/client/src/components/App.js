@@ -14,7 +14,7 @@ const App = () => {
     <div className="ui container">
       <BrowserRouter>
         <div>
-          <Route path="/" component={PageOne} />
+          <Route path="/" exact component={PageOne} />
           <Route path="/2" component={PageTwo} />
         </div>
       </BrowserRouter>
