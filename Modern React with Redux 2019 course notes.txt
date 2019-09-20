@@ -97,5 +97,11 @@ https://developers.google.com/identity/sign-in/web/reference#authentication
 https://github.com/google/google-api-javascript-client
 
 https://github.com/zalmoxisus/redux-devtools-extension
+https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd
 http://localhost:3000/?debug_session=test
+
+https://redux-form.com/8.1.0/
+https://redux-form.com/8.1.0/examples/
+https://redux-form.com/8.1.0/examples/wizard/
+https://redux-form.com/8.1.0/examples/syncvalidation/
 
