@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/gdibble/modernReactWithRedux2019/issues"
   },
-  "homepage": "https://github.com/gdibble/modernReactWithRedux2019#readme"
+  "homepage": "https://github.com/gdibble/modernReactWithRedux2019#readme",
+  "dependencies": {
+    "json-server": "^0.15.1"
+  }
 }
