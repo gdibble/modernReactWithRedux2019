@@ -3,9 +3,10 @@ import { Field, reduxForm } from 'redux-form';
 
 class StreamCreate extends React.Component {
 
-  renderInput() {
+  renderInput(formProps) {
+    console.log(formProps);
     return (
-      <div>I'm an input</div>
+      <input />
     );
   }
 
