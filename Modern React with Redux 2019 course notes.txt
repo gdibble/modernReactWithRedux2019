@@ -96,3 +96,6 @@ https://developers.google.com/identity/protocols/googlescopes#google_sign-in
 https://developers.google.com/identity/sign-in/web/reference#authentication
 https://github.com/google/google-api-javascript-client
 
+https://github.com/zalmoxisus/redux-devtools-extension
+http://localhost:3000/?debug_session=test
+
