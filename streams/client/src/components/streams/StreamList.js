@@ -23,4 +23,4 @@ const mapStateToProps = state => {
   return { streams: Object.values(state.streams) };
 };
 
-export default connect(null, { fetchStreams })(StreamList);
+export default connect(mapStateToProps, { fetchStreams })(StreamList);
