@@ -1,3 +1,5 @@
+import _ from 'lodash';
+
 import {
   CREATE_STREAM,
   EDIT_STREAM,
