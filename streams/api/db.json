@@ -1,5 +1,9 @@
 {
   "streams": [
-
+    {
+      "title": "Stream 1",
+      "description": "POST test uno",
+      "id": 1
+    }
   ]
 }
