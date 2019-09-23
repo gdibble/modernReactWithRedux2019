@@ -4,6 +4,11 @@
       "title": "Stream 1",
       "description": "POST test uno",
       "id": 1
+    },
+    {
+      "description": "POST test dos",
+      "title": "Stream 2",
+      "id": 2
     }
   ]
 }
