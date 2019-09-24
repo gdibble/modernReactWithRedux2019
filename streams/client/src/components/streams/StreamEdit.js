@@ -9,4 +9,9 @@ const StreamEdit = props => {
   );
 };
 
+const mapStateToProps = (state, ownProps) => {
+  console.log(ownProps);
+  return { stream: null };
+};
+
 export default StreamEdit;
