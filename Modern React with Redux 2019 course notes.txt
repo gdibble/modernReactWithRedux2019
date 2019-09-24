@@ -105,3 +105,8 @@ https://redux-form.com/8.1.0/examples/
 https://redux-form.com/8.1.0/examples/wizard/
 https://redux-form.com/8.1.0/examples/syncvalidation/
 
+https://www.npmjs.com/package/json-server
+
+https://www.w3.org/2001/sw/wiki/REST
+https://en.wikipedia.org/wiki/Representational_state_transfer
+
