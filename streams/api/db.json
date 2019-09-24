@@ -9,6 +9,12 @@
       "description": "POST test dos",
       "title": "Stream 2",
       "id": 2
+    },
+    {
+      "title": "Stream 3",
+      "description": "POST test tres",
+      "userId": "100157471186973886189",
+      "id": 3
     }
   ]
 }
