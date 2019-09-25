@@ -16,7 +16,7 @@ const Modal = props => {
           {props.title}
         </div>
         <div className="content">
-          Are you sure that you want to delete this stream?
+          {props.content}
         </div>
         <div className="actions">
           <button className="ui button primary">Delete</button>
