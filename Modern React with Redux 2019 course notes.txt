@@ -110,3 +110,7 @@ https://www.npmjs.com/package/json-server
 https://www.w3.org/2001/sw/wiki/REST
 https://en.wikipedia.org/wiki/Representational_state_transfer
 
+https://reactjs.org/docs/portals.html
+
+https://semantic-ui.com/modules/modal.html
+
