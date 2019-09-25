@@ -1,8 +1,10 @@
 <head>
   <style type="text/css">
+
     .content {
       margin-left: 300px;
     }
+
     .sidebar {
       position: fixed;
       top: 0;
@@ -11,12 +13,14 @@
       height: 100vh;
       background-color: green;
     }
+
     .modal-body {
       width: 30%;
       height: 30%;
       margin: auto;
       background-color: white;
     }
+
     .modal {
       z-index: 10;
       position: fixed;
@@ -26,14 +30,22 @@
       left: 0;
       background-color: grey;
     }
+
+    .positioned {
+      z-index: 0;
+      position: relative;
+    }
+
   </style>
 </head>
 <body>
-  <div class="modal">
-    <div class="modal-body">
-      <h1>
-        I am a modal.
-      </h1>
+  <div class="positioned">
+    <div class="modal">
+      <div class="modal-body">
+        <h1>
+          I am a modal.
+        </h1>
+      </div>
     </div>
   </div>
   <div class="sidebar">
