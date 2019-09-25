@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import history from '../history.js';
 
-const Modal = () => {
+const Modal = props => {
   return ReactDOM.createPortal(
     <div
       className="ui dimmer modals visible active"
@@ -13,7 +13,7 @@ const Modal = () => {
         onClick={e => e.stopPropagation()}
       >
         <div className="header">
-          Delete Stream
+          {props.title}
         </div>
         <div className="content">
           Are you sure that you want to delete this stream?
