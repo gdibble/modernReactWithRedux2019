@@ -4,6 +4,10 @@ import history from '../../history.js';
 
 class StreamDelete extends React.Component {
 
+  componentDidMount() {
+    console.log(this.props);
+  }
+
   renderActions() {
     return (
       <React.Fragment>
