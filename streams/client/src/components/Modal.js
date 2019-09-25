@@ -19,8 +19,7 @@ const Modal = props => {
           {props.content}
         </div>
         <div className="actions">
-          <button className="ui button primary">Delete</button>
-          <button className="ui button">Cancel</button>
+          {props.actions}
         </div>
       </div>
     </div>,
