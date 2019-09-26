@@ -125,3 +125,9 @@ https://www.npmjs.com/package/flv.js
 
 https://reactjs.org/docs/react-component.html#componentwillunmount
 
+https://reactjs.org/docs/context.html
+https://reactjs.org/docs/context.html#reactcreatecontext
+https://reactjs.org/docs/context.html#contextprovider
+https://reactjs.org/docs/context.html#contextconsumer
+
+
