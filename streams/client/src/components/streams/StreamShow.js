@@ -1,4 +1,6 @@
 import React from 'react';
+import { connect } from 'react-redux';
+import { fetchStream }  from '../../actions';
 
 const StreamShow = () => {
   return (
@@ -8,4 +10,4 @@ const StreamShow = () => {
   );
 };
 
-export default StreamShow;
+export default connect(null, { fetchStream })(StreamShow);
