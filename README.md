@@ -23,3 +23,4 @@
 > - [songs](https://github.com/gdibble/modernReactWithRedux2019/tree/master/songs) (Section XIII)
 > - [blog](https://github.com/gdibble/modernReactWithRedux2019/tree/master/blog) (Sections XIV-XV)
 > - [streams](https://github.com/gdibble/modernReactWithRedux2019/tree/master/streams) (Sections XVI-XXII)
+> - [translate](https://github.com/gdibble/modernReactWithRedux2019/tree/master/translate) (Sections XXIII-wip)
