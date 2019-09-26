@@ -114,3 +114,14 @@ https://reactjs.org/docs/portals.html
 
 https://semantic-ui.com/modules/modal.html
 
+https://github.com/illuspas/Node-Media-Server#npm-version-recommended
+https://github.com/illuspas/Node-Media-Server#accessing-the-live-stream
+https://github.com/illuspas/Node-Media-Server#http-flv
+https://github.com/illuspas/Node-Media-Server#via-flvjs-over-http-flv
+
+https://obsproject.com
+
+https://www.npmjs.com/package/flv.js
+
+https://reactjs.org/docs/react-component.html#componentwillunmount
+
