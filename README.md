@@ -25,3 +25,4 @@
 > - [streams](https://github.com/gdibble/modernReactWithRedux2019/tree/master/streams) (Sections XVI-XXII)
 > - [translate](https://github.com/gdibble/modernReactWithRedux2019/tree/master/translate) (Sections XXIII-XXIV)
 > - [hooks-simple](https://github.com/gdibble/modernReactWithRedux2019/tree/master/hooks-simple) (Section XXV)
+> - [hooks-seasons](https://github.com/gdibble/modernReactWithRedux2019/tree/master/hooks-seasons) (Section XXVI)
